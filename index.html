@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="./CSS/style.css" />
+        <link rel="icon" type="image" href="./icons/carne.png" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2? family= Lagosta & display=swap');
+        </style>
+        <title>Churrascômetro</title>
+    </head>
+    <body>
+        <div class="churrasco">
+            <h1>Churrascômetro</h1>
+            <input
+                id="adultos"
+                type="number"
+                placeholder="Adultos"
+                onfocus="this.value= ''"
+                autocomplete="off"
+            />
+            <input
+                id="crianças"
+                type="number"
+                placeholder="Crianças"
+                onfocus="this.value= ''"
+                autocomplete="off"
+            />
+            <input
+                id="tempo"
+                type="number"
+                placeholder="Duração (h)"
+                onfocus="this.value= ''"
+                autocomplete="off"
+            />
+            <input
+                id="calculo"
+                type="submit"
+                value="Calcular"
+                onclick="calcTodos()"
+            />
+            <input
+                type="reset"
+                id="resetar"
+                value="Resetar"
+                onclick="resetar()"
+            />
+
+            <ul id="lista"></ul>
+        </div>
+
+        <script src="./JavaScript/script.js"></script>
+    </body>
+</html>

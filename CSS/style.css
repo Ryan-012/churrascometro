@@ -1,0 +1,70 @@
+*{
+    
+    font-family: minha
+}
+@font-face {
+    font-family: minha;
+    src: url(../fonts/Lobster/Lobster-Regular.ttf);
+}
+
+body{
+    background-image: url(../imagens/churrasco.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.678);
+    background-blend-mode: color;
+    color: rgb(248, 114, 4);
+    
+    
+}
+
+.churrasco{
+    text-align: center;
+    background-color: rgba(241, 97, 13, 0.274);
+    max-width: 500px;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin-top: 10%;
+  
+}
+
+#adultos, #crianças, #tempo{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+    padding: 7px;
+    
+}
+
+#calculo:hover, #resetar:hover{
+    background-color: rgb(248, 114, 4);
+    color: rgba(0, 0, 0, 0.514);
+    cursor: pointer;
+}
+
+input{
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+color: rgba(235, 145, 10, 0.925);
+}
+
+h1{
+    
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+#lista{
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.514);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
